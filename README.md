@@ -1,8 +1,8 @@
 # pwa-113
 ⚡️Projecto de un yarn 
-# 🚀 Progressive Web Applications (PWAs) 101
+# 🚀 Progressive Web Applications (PWAs) 
 
-Welcome to a simple React application with Progressive Web Apps functionalities 🙌
+PWA: Aplicación Web Progresiva 🙌
 
 ## Features
 
@@ -17,6 +17,33 @@ This project was made as a part of a workshop about Progressive Web Applications
 <a href="https://www.youtube.com/watch?v=de1xiqz-BTE"><img src="./workshop_progressive_web_apps_pennapps.png" /></a>
 
 This project is part of a workshop about Progressive Web Applications I've been doing:
+
+NPM Instalar en un NPM (Node Package Manager) en Windows.
+En el manejador de versiones de Node, NVM (Node Version Manager).
+
+Un repositorio online para publicar paquetes de software libre para ser utilizados en proyectos Node.js
+proyecto basado en Node — que actualmente incluye los proyectos de aplicaciones web que utilizan Node para su proceso de compilación y generación de archivos — utilizarás la utilidad de linea de comandos (cli) para consumir paquetes desde el repositorio online, un listado gigantesco de soluciones de software para distintos problemas.
+
+## Monorepo
+Un monorepo (mono repositorio) es un repositorio único que almacena todo su código y activos para cada proyecto.
+
+## Multi Repo
+Los repositorios múltiples, por otro lado, se refieren a organizar sus proyectos cada uno en sus propios repositorios separados. Cuantos más proyectos, más repositorios. Un repositorio múltiple también se conoce como polyrepo.
+
+## npm scripts
+Una importante sección de este archivo es scripts. Esta sección define un listado de propiedades que permiten ejecutar comandos dentro del contexto de tu proyecto incluyendo: comandos de otros paquetes listados como dependencias, scripts personalizados, scripts bash, etc.
+npm es parte esencial de Node.js, el entorno de ejecución de javaScript en el lado del servidor basado en el motor V8 de Google
+
+## Yarn
+Los espacios de trabajo de Yarn le permiten organizar la base del código de su proyecto utilizando un repositorio monolítico (monorepo).
+En este artículo, Jorge explica por qué son una gran herramienta y cómo crear su primer monorepo usando Yarn con scripts npm básicos y agregar las dependencias necesarias para cada aplicación.
+Los proyectos nuevos debería utilizar repositorios git separados,  para mi servidor back-end y mis clientes front-end, de esta manera organizando el código base.
+
+Son aplicaciones WEB con capacidades de las Apps utilizadas por el celular.
+
+## yarn.lock
+Este archivo es auto generado por npm install y es una lista descriptiva y exacta de las versiones instaladas durante tu proceso. No esta destinado a ser leído ni manipulado por los desarrolladores, si no, para ser un insumo del proceso de manejo de dependencias.
+
 
 * [Workshop: Progressive Web Apps at PennApps (University of Pennsylvania)](https://www.ferreiro.me/blog/workshop-progressive-web-apps-at-pennapps)
 
@@ -43,21 +70,3 @@ openssl req -x509 -out ./certificates/localhost.cert -keyout ./certificates/loca
 * For more info check: https://timonweb.com/posts/running-expressjs-server-over-https/
 * Also check: https://letsencrypt.org/docs/certificates-for-localhost/
 
-### Hot reload
-
-In development, all your frontend assets and app will be automatically rebuild! Also, it will automatically reload the browser! Yay.
-
-*Note* If you do changes to the backend, you will need to manually refresh the website. Sorry guys, didn't have time to do this (and it's really late now)! haha.
-
-## Contribute
-
-💬 [Create a new Pull Request](https://github.com/ferreiro/pwa-101/pulls)
-
-## Contact
-
-If you have some doubts or want to stay in touch I'll be happy to help you out or collaborate on new projects. You can reach me here:
-
-* **Contact:** [Contact form and email](http://www.ferreiro.me/contact)
-* **Twitter:** [https://www.twitter.com/jgferreiro](https://www.twitter.com/jgferreiro)
-* **Linkedin:** [https://www.linkedin.com/in/jgferreiro/](https://www.linkedin.com/in/jgferreiro/)
-* **Instagram:** [https://www.instagram.com/jgferreiro/](https://www.instagram.com/jgferreiro/)
